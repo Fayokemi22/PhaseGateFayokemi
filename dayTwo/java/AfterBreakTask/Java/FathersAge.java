@@ -11,15 +11,15 @@ return fatherAge -(sonAge *2);
 
 public static void main(String[] args){
 
-Scanner ageCollector= new Scanner (System.in);
+Scanner input= new Scanner (System.in);
 
 	System.out.print("Current Father's Age: ");
 
-		int fatherAge = ageCollector.nextInt();
+		int fatherAge = input.nextInt();
 
 	System.out.print("Current Age Of His Son: ");
 		
-		int sonAge = ageCollector.nextInt();
+		int sonAge = input.nextInt();
 
 int years= fatherAge - (sonAge * 2);
 

@@ -34,19 +34,19 @@ return (average) / 3;
 
 public static void main(String[] args){
 
-Scanner ageCollector= new Scanner (System.in);
+Scanner input= new Scanner (System.in);
 
 	System.out.print("The First Score: ");
 
-		int scoreOne = ageCollector.nextInt();
+		int scoreOne = input.nextInt();
 
 	System.out.print("The Second Score: ");
 		
-		int scoreTwo = ageCollector.nextInt();
+		int scoreTwo = input.nextInt();
 		
 		System.out.print("The Third Score: ");
 		
-		int scoreThree = ageCollector.nextInt();
+		int scoreThree = input.nextInt();
  int average = grades(average)/ 3;
 
 System.out.println("The grade is: " + average + " years");
