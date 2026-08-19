@@ -22,3 +22,8 @@ def main():
     print("The Average is",average)
     
 main()
+
+
+
+
+

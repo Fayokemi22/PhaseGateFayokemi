@@ -1,14 +1,14 @@
 
-const prompt = require('prompt')();
+const prompt = require('prompt-sync')();
 
 function grade(average) {
-    if (average > 100) {
+    if (average <= 100) {
         return "A";
-    } else if (average > 80) {
+    } else if (average <=90) {
         return "B";
-    } else if (average > 70) {
+    } else if (average <=80) {
         return "C";
-    } else if (average > 60) {
+    } else if (average <=70) {
         return "D";
     } else {
         return "F";
@@ -25,5 +25,8 @@ function main() {
     console.log(grade(average));
     console.log("The Average is:"+ average);
 }
-
 main();
+
+
+
+

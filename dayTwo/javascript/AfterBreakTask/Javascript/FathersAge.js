@@ -1,18 +1,20 @@
 
 const prompt= require('prompt-sync')();
-function years(fatherage,sonage){
+function years(fatherAge,sonAge){
 return fatherAge -(sonAge *2);
 }
 
 function main() {
-const father_age = parseInt(prompt("Current Father's Age : "));
-const son_age = parseInt(prompt("Current Father's Age : "));
+const fatherage = parseInt(prompt("Current Father's Age : "));
+const sonAge = parseInt(prompt("Current Father's Age : "));
 
-const years = years(father_age, son_age);
+const year = years(fatherage, sonAge);
 
 
-    console.log("The father would be twice older than his son in " + years + " years");
 
+    console.log("The father would be twice older than his son in " + year+ " years");
+
+}
 main();
 
 
