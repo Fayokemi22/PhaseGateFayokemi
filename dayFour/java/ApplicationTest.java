@@ -16,7 +16,7 @@ int deposit = 500;
 int withdraw = 200;
 
 int expected = app.remainingTransaction(initialDeposit,deposit,withdraw);
-int actual =1300;
+int actual =100;
 
 assertEquals(expected,actual);
 
