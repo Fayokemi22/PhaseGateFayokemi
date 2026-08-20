@@ -25,7 +25,7 @@ public class AfternoonTask{
 
 public static String returnString(String letter){
 
-
+String letter = "abcdef";
 int counter= 0;
 
 for(int count=1; count<letter.length(); count++){
@@ -50,4 +50,9 @@ returnString(letter);
 
 }
 
+/*input = "acbde"
+output=0
+
+imput2= a11bAcB
+*/
 
