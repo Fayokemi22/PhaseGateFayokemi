@@ -1,18 +1,19 @@
 public class PrimeNumber{
 
-public static int prime(int number){
-return number;
+public static String prime(int number){
+if (number%2==0){
+return "It's not a prime number";
+}
+else{
+return "Its a prime number";
+}
 
 }
 
 public static void main(String[] args){
 
 int number= 5;
-if (number%2==0){
-System.out.print("It's not a prime number'");
-}
-else{
-System.out.println("Its a prime number");
-}
+System.out.println (prime(number));
+
 }
 }

@@ -12,7 +12,7 @@ reverse(count);
 }
 
 }
-System.out.print(reverse);
+System.out.print(reverseNumber(reverse));
 }
 
 }

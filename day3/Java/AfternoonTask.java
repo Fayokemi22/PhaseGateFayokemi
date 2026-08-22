@@ -23,9 +23,9 @@ System.out.print(counter);
 
 public class AfternoonTask{
 
-public static String returnString(String letter){
+public static int returnString(String letter){
 
-String letter = "abcdef";
+
 int counter= 0;
 
 for(int count=1; count<letter.length(); count++){

@@ -1,26 +1,28 @@
 function transactionLoginApp(){
 
-const prompt = require('promt-sync')()
+const prompt = require('prompt-sync')()
 let running = true;
-while(running);
+while(running){
 
 let intialDeposit = 0;
 
-console.log("""
+ menu = `
 App menu :
 
 1. deposit
-2.	withdraw
+2.	ithdraw
 3. view the transaction
 4. exit
 
-""");
+ `;
+
+console.log(menu)
 
 let option =parseFloat(prompt("Enter Option: "));
 
  switch (option) {
 case 1:
-console.log("Enter the amount to deposit : ");
+
 let deposit =parseFloat(prompt("Enter deposit amount: "));
 let balance = intialDeposit + deposit 
 console.log("You Deposited : " , deposit)
@@ -54,6 +56,6 @@ default:
 console.log("Invalid");
  }
  }
- 
+ }
  transactionLoginApp();
 
