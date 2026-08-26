@@ -5,7 +5,7 @@ public static int []digit(int [] number, int [] numberTwo){
 	
 	for(int index=1; index<numberTwo[number]; index++){
 	if(number[count]==numberTwo[count][number]){
-number[count] = number[count];
+number[count] = numberTwo[count][count];
 }
 	
 	}
@@ -13,7 +13,7 @@ number[count] = number[count];
 
 	
 	}
-	return number;
+	return;
 	}
 public static void main(String [] args){
 int [] number = {1,2,3};
