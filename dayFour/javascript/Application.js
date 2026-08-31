@@ -10,7 +10,7 @@ let intialDeposit = 0;
 App menu :
 
 1. deposit
-2.	ithdraw
+2.	Withdraw
 3. view the transaction
 4. exit
 
